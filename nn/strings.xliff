@@ -47,14 +47,53 @@
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="16.2" build-num="16C5032a"/>
     </header>
     <body>
-      <trans-unit id="TESTINGSTRING" xml:space="preserve">
-        <source>TESTING</source>
-        <note>Testing</note>
+      <trans-unit id="The %@ keyboard is currently not supported on this device." xml:space="preserve">
+        <source>The %@ keyboard is currently not supported on this device.</source>
+        <note/>
+      </trans-unit>
+      <trans-unit id="You can submit a request for support with one of the following options:" xml:space="preserve">
+        <source>You can submit a request for support with one of the following options:</source>
+        <note/>
       </trans-unit>
       <trans-unit id="about" xml:space="preserve">
         <source>About</source>
         <target>Om tastaturappen</target>
         <note/>
+      </trans-unit>
+      <trans-unit id="accessibility.backspace" xml:space="preserve">
+        <source>delete</source>
+        <target>slett</target>
+        <note>Spoken by VoiceOver when an element is selected</note>
+      </trans-unit>
+      <trans-unit id="accessibility.moreLetters" xml:space="preserve">
+        <source>more: letters</source>
+        <target>meire: bokstavar</target>
+        <note>Spoken by VoiceOver when an element is selected</note>
+      </trans-unit>
+      <trans-unit id="accessibility.moreNumbers" xml:space="preserve">
+        <source>more: numbers</source>
+        <target>meire: tal</target>
+        <note>Spoken by VoiceOver when an element is selected</note>
+      </trans-unit>
+      <trans-unit id="accessibility.moreSymbols" xml:space="preserve">
+        <source>more: symbols</source>
+        <target>meire: symbol</target>
+        <note>Spoken by VoiceOver when an element is selected</note>
+      </trans-unit>
+      <trans-unit id="accessibility.nextKeyboard" xml:space="preserve">
+        <source>next keyboard</source>
+        <target>neste tastatur</target>
+        <note>Spoken by VoiceOver when an element is selected</note>
+      </trans-unit>
+      <trans-unit id="accessibility.shift" xml:space="preserve">
+        <source>shift</source>
+        <target>skift</target>
+        <note>Spoken by VoiceOver when an element is selected</note>
+      </trans-unit>
+      <trans-unit id="accessibility.space" xml:space="preserve">
+        <source>space</source>
+        <target>mellomrom</target>
+        <note>Spoken by VoiceOver when an element is selected</note>
       </trans-unit>
       <trans-unit id="add" xml:space="preserve">
         <source>Add</source>
@@ -268,56 +307,6 @@
       <trans-unit id="none given" xml:space="preserve">
         <source>none given</source>
         <note/>
-      </trans-unit>
-    </body>
-  </file>
-  <file original="Keyboard/en.lproj/Localizable.strings" source-language="en" target-language="nn" datatype="plaintext">
-    <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="16.2" build-num="16C5032a"/>
-    </header>
-    <body>
-      <trans-unit id="The %@ keyboard is currently not supported on this device." xml:space="preserve">
-        <source>The %@ keyboard is currently not supported on this device.</source>
-        <note/>
-      </trans-unit>
-      <trans-unit id="You can submit a request for support with one of the following options:" xml:space="preserve">
-        <source>You can submit a request for support with one of the following options:</source>
-        <note/>
-      </trans-unit>
-      <trans-unit id="accessibility.backspace" xml:space="preserve">
-        <source>delete</source>
-        <target>slett</target>
-        <note/>
-      </trans-unit>
-      <trans-unit id="accessibility.moreLetters" xml:space="preserve">
-        <source>more: letters</source>
-        <target>meire: bokstavar</target>
-        <note/>
-      </trans-unit>
-      <trans-unit id="accessibility.moreNumbers" xml:space="preserve">
-        <source>more: numbers</source>
-        <target>meire: tal</target>
-        <note/>
-      </trans-unit>
-      <trans-unit id="accessibility.moreSymbols" xml:space="preserve">
-        <source>more: symbols</source>
-        <target>meire: symbol</target>
-        <note/>
-      </trans-unit>
-      <trans-unit id="accessibility.nextKeyboard" xml:space="preserve">
-        <source>next keyboard</source>
-        <target>neste tastatur</target>
-        <note/>
-      </trans-unit>
-      <trans-unit id="accessibility.shift" xml:space="preserve">
-        <source>shift</source>
-        <target>skift</target>
-        <note/>
-      </trans-unit>
-      <trans-unit id="accessibility.space" xml:space="preserve">
-        <source>space</source>
-        <target>mellomrom</target>
-        <note>* accessibility.* strings contain the text to be spoken by VoiceOver when an element is selected */</note>
       </trans-unit>
     </body>
   </file>
