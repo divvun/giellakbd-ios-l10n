@@ -8,6 +8,8 @@
       <trans-unit id="The %@ keyboard is currently not supported on this device. You can submit a request for support with one of the following options:" xml:space="preserve">
         <source>The %@ keyboard is currently not supported on this device.
 You can submit a request for support with one of the following options:</source>
+        <target>TESTING THAT LINE BREAKS WORK %@ keyboard is currently not supported on this device.
+You can submit a request for support with one of the following options:</target>
         <note>No comment provided by engineer.</note>
       </trans-unit>
       <trans-unit id="accessibility.backspace" xml:space="preserve">
