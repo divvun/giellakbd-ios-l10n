@@ -45,6 +45,10 @@ You can submit a request for support with one of the following options:</source>
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="16.2" build-num="16C5032a"/>
     </header>
     <body>
+      <trans-unit id="TESTINGSTRING" xml:space="preserve">
+        <source>TESTING</source>
+        <note>Testing</note>
+      </trans-unit>
       <trans-unit id="about" xml:space="preserve">
         <source>About</source>
         <target>Сёрмаповонь программадонть</target>
