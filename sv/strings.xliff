@@ -7,7 +7,6 @@
     <body>
       <trans-unit id="The %@ keyboard is currently not supported on this device." xml:space="preserve">
         <source>The %@ keyboard is currently not supported on this device.</source>
-        <target>TESTING %@ SWEDISH TRANSLATION!</target>
         <note>Shown inside the keyboard view when keyboard doesn't support current device</note>
       </trans-unit>
       <trans-unit id="You can submit a request for support with one of the following options:" xml:space="preserve">
