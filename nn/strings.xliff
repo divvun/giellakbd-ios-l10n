@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?><xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 http://docs.oasis-open.org/xliff/v1.2/os/xliff-core-1.2-strict.xsd">
+<?xml version='1.0' encoding='UTF-8'?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 http://docs.oasis-open.org/xliff/v1.2/os/xliff-core-1.2-strict.xsd">
   <file original="HostingApp/Base.lproj/Localizable.strings" source-language="en" target-language="nn" datatype="plaintext">
     <header>
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="16.2" build-num="16C5032a"/>
@@ -6,10 +7,12 @@
     <body>
       <trans-unit id="The %@ keyboard is currently not supported on this device." xml:space="preserve">
         <source>The %@ keyboard is currently not supported on this device.</source>
+        <target>%@-tastaturet er ikkje støtta akkurat no på dette apparatet.</target>
         <note>Shown inside the keyboard view when keyboard doesn't support current device</note>
       </trans-unit>
       <trans-unit id="You can submit a request for support with one of the following options:" xml:space="preserve">
         <source>You can submit a request for support with one of the following options:</source>
+        <target>Du kan be om støtte via eitt av desse alternativa:</target>
         <note>Shown inside the keyboard view when keyboard doesn't support current device</note>
       </trans-unit>
       <trans-unit id="about" xml:space="preserve">
@@ -119,7 +122,7 @@
       </trans-unit>
       <trans-unit id="enableKeyboards" xml:space="preserve">
         <source>Enable the keyboards that you want to use.</source>
-        <target>Enable the keyboards that you want to use.</target>
+        <target>Slå på tastatura du vil nytta.</target>
         <note/>
       </trans-unit>
       <trans-unit id="enableTapSoundsPlain" xml:space="preserve">
@@ -239,30 +242,34 @@
       </trans-unit>
       <trans-unit id="word" xml:space="preserve">
         <source>Word</source>
-        <target>ord</target>
+        <target>Ord</target>
         <note/>
       </trans-unit>
     </body>
   </file>
-  <file original="HostingApp/Settings.bundle/en.lproj/Root.strings" datatype="plaintext" source-language="en" target-language="nn">
+  <file original="HostingApp/Settings.bundle/en.lproj/Root.strings" source-language="en" target-language="nn" datatype="plaintext">
     <header>
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="16.2" build-num="16C5032a"/>
     </header>
     <body>
       <trans-unit id="Enabled" xml:space="preserve">
         <source>Enabled</source>
+        <target>Slått på</target>
         <note/>
       </trans-unit>
       <trans-unit id="Group" xml:space="preserve">
         <source>Group</source>
+        <target>Gruppe</target>
         <note>A single strings file, whose title is specified in your preferences schema. The strings files provide the localized content to display to the user for each of your preferences.</note>
       </trans-unit>
       <trans-unit id="Name" xml:space="preserve">
         <source>Name</source>
+        <target>Namn</target>
         <note/>
       </trans-unit>
       <trans-unit id="none given" xml:space="preserve">
         <source>none given</source>
+        <target>ingen spesifisert</target>
         <note/>
       </trans-unit>
     </body>
