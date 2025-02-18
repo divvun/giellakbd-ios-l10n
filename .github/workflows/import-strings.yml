@@ -1,7 +1,7 @@
 name: Import strings
 on:
-#   schedule:
-#     - cron: "0 15 * * 2" # At 8:00 PDT on Tuesday
+  schedule:
+    - cron: "0 6 * * 1-5" # Monday to Friday at 6:00 UTC
   workflow_dispatch:
 
 jobs:
