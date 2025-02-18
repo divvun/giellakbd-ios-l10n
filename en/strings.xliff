@@ -4,11 +4,6 @@
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="16.2" build-num="16C5032a"/>
     </header>
     <body>
-      <trans-unit id="TEST String - delete me" xml:space="preserve">
-        <source>TEST String - delete me</source>
-        <target>TEST String - delete me</target>
-        <note>Comment for test string</note>
-      </trans-unit>
       <trans-unit id="The %@ keyboard is currently not supported on this device." xml:space="preserve">
         <source>The %@ keyboard is currently not supported on this device.</source>
         <target>The %@ keyboard is currently not supported on this device.</target>
