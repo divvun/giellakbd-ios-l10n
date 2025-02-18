@@ -44,7 +44,6 @@ jobs:
       - name: Extract strings
         run: |
           # Extract strings
-          ls -la
           cd LocalizationTools
           swift run LocalizationTools --export --project-path ../code_repo/GiellaKeyboard.xcodeproj --l10n-project-path ../l10n_repo --locale en
 
