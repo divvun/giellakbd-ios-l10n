@@ -56,4 +56,4 @@ jobs:
           commit-message: "Extract new strings (${{ env.current_date }})"
           branch: l10n_automation
           delete-branch: true
-          title: "Extract new strings (${{ env.current_date }})"
+          title: "Extract new strings from Xcode project into Pontoon (${{ env.current_date }})"
