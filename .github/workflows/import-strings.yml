@@ -1,0 +1,60 @@
+name: Import strings
+on:
+#   schedule:
+#     - cron: "0 15 * * 2" # At 8:00 PDT on Tuesday
+  push:
+  workflow_dispatch:
+    inputs:
+      type:
+        description: Type of update (standard, nofile, matchid)
+        required: true
+        default: "standard"
+
+jobs:
+  build:
+    runs-on: macos-15
+    strategy:
+      max-parallel: 4
+      matrix:
+        xcode:
+          - "16.2"
+    steps:
+
+      - name: Clone l10n repository
+        uses: actions/checkout@v4
+        with:
+          path: "l10n_repo"
+
+      - name: Clone main code repository
+        uses: actions/checkout@v4
+        with:
+          repository: "divvun/giellakbd-ios"
+          path: "code_repo"
+      
+      - name: Clone localization tools repository
+        uses: actions/checkout@v4
+        with:
+          repository: "divvun/LocalizationTools"
+          path: "LocalizationTools"
+
+      - name: Select Xcode ${{ matrix.xcode }}
+        run: |
+          sudo xcode-select -s /Applications/Xcode_${{ matrix.xcode }}.app
+
+      - name: Extract strings
+        run: |
+          # Extract strings
+          ls -la
+          cd LocalizationTools
+          swift run LocalizationTools --export --project-path ../code_repo/GiellaKeyboard.xcodeproj --l10n-project-path ../l10n_repo --locale en
+
+      - name: Get the current date for PR title
+        run: echo "current_date=$(date +"%Y-%m-%d")" >> $GITHUB_ENV
+      - uses: peter-evans/create-pull-request@v7
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          path: "l10n_repo"
+          commit-message: "Extract new strings (${{ env.current_date }})"
+          branch: l10n_automation
+          delete-branch: true
+          title: "Extract new strings (${{ env.current_date }})"
