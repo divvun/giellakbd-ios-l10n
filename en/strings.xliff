@@ -1,58 +1,63 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?><xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 http://docs.oasis-open.org/xliff/v1.2/os/xliff-core-1.2-strict.xsd">
+  <file original="BaseKeyboard/en.lproj/Localizable.strings" source-language="en" target-language="en" datatype="plaintext">
+    <header>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="16.2" build-num="16C5032a"/>
+    </header>
+    <body>
+      <trans-unit id="The %@ keyboard is currently not supported on this device.
+You can submit a request for support with one of the following options:" xml:space="preserve">
+        <source>The %@ keyboard is currently not supported on this device.
+You can submit a request for support with one of the following options:</source>
+        <target>The %@ keyboard is currently not supported on this device.
+You can submit a request for support with one of the following options:</target>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="accessibility.backspace" xml:space="preserve">
+        <source>accessibility.backspace</source>
+        <target>accessibility.backspace</target>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="accessibility.moreLetters" xml:space="preserve">
+        <source>accessibility.moreLetters</source>
+        <target>accessibility.moreLetters</target>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="accessibility.moreNumbers" xml:space="preserve">
+        <source>accessibility.moreNumbers</source>
+        <target>accessibility.moreNumbers</target>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="accessibility.moreSymbols" xml:space="preserve">
+        <source>accessibility.moreSymbols</source>
+        <target>accessibility.moreSymbols</target>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="accessibility.nextKeyboard" xml:space="preserve">
+        <source>accessibility.nextKeyboard</source>
+        <target>accessibility.nextKeyboard</target>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="accessibility.shift" xml:space="preserve">
+        <source>accessibility.shift</source>
+        <target>accessibility.shift</target>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="accessibility.space" xml:space="preserve">
+        <source>accessibility.space</source>
+        <target>accessibility.space</target>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+    </body>
+  </file>
   <file original="HostingApp/Base.lproj/Localizable.strings" source-language="en" target-language="en" datatype="plaintext">
     <header>
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="16.2" build-num="16C5032a"/>
     </header>
     <body>
-      <trans-unit id="The %@ keyboard is currently not supported on this device." xml:space="preserve">
-        <source>The %@ keyboard is currently not supported on this device.</source>
-        <target>The %@ keyboard is currently not supported on this device.</target>
-        <note>Shown inside the keyboard view when keyboard doesn't support current device</note>
-      </trans-unit>
-      <trans-unit id="You can submit a request for support with one of the following options:" xml:space="preserve">
-        <source>You can submit a request for support with one of the following options:</source>
-        <target>You can submit a request for support with one of the following options:</target>
-        <note>Shown inside the keyboard view when keyboard doesn't support current device</note>
-      </trans-unit>
       <trans-unit id="about" xml:space="preserve">
         <source>About</source>
         <target>About</target>
         <note/>
-      </trans-unit>
-      <trans-unit id="accessibility.backspace" xml:space="preserve">
-        <source>delete</source>
-        <target>delete</target>
-        <note>Spoken by VoiceOver when an element is selected</note>
-      </trans-unit>
-      <trans-unit id="accessibility.moreLetters" xml:space="preserve">
-        <source>more: letters</source>
-        <target>more: letters</target>
-        <note>Spoken by VoiceOver when an element is selected</note>
-      </trans-unit>
-      <trans-unit id="accessibility.moreNumbers" xml:space="preserve">
-        <source>more: numbers</source>
-        <target>more: numbers</target>
-        <note>Spoken by VoiceOver when an element is selected</note>
-      </trans-unit>
-      <trans-unit id="accessibility.moreSymbols" xml:space="preserve">
-        <source>more: symbols</source>
-        <target>more: symbols</target>
-        <note>Spoken by VoiceOver when an element is selected</note>
-      </trans-unit>
-      <trans-unit id="accessibility.nextKeyboard" xml:space="preserve">
-        <source>next keyboard</source>
-        <target>next keyboard</target>
-        <note>Spoken by VoiceOver when an element is selected</note>
-      </trans-unit>
-      <trans-unit id="accessibility.shift" xml:space="preserve">
-        <source>shift</source>
-        <target>shift</target>
-        <note>Spoken by VoiceOver when an element is selected</note>
-      </trans-unit>
-      <trans-unit id="accessibility.space" xml:space="preserve">
-        <source>space</source>
-        <target>space</target>
-        <note>Spoken by VoiceOver when an element is selected</note>
       </trans-unit>
       <trans-unit id="add" xml:space="preserve">
         <source>Add</source>
@@ -270,6 +275,56 @@
         <source>none given</source>
         <target>none given</target>
         <note/>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="Keyboard/en.lproj/Localizable.strings" source-language="en" target-language="en" datatype="plaintext">
+    <header>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="16.2" build-num="16C5032a"/>
+    </header>
+    <body>
+      <trans-unit id="The %@ keyboard is currently not supported on this device.
+You can submit a request for support with one of the following options:" xml:space="preserve">
+        <source>The %@ keyboard is currently not supported on this device.
+You can submit a request for support with one of the following options:</source>
+        <target>The %@ keyboard is currently not supported on this device.
+You can submit a request for support with one of the following options:</target>
+        <note/>
+      </trans-unit>
+      <trans-unit id="accessibility.backspace" xml:space="preserve">
+        <source>delete</source>
+        <target>delete</target>
+        <note/>
+      </trans-unit>
+      <trans-unit id="accessibility.moreLetters" xml:space="preserve">
+        <source>more: letters</source>
+        <target>more: letters</target>
+        <note/>
+      </trans-unit>
+      <trans-unit id="accessibility.moreNumbers" xml:space="preserve">
+        <source>more: numbers</source>
+        <target>more: numbers</target>
+        <note/>
+      </trans-unit>
+      <trans-unit id="accessibility.moreSymbols" xml:space="preserve">
+        <source>more: symbols</source>
+        <target>more: symbols</target>
+        <note/>
+      </trans-unit>
+      <trans-unit id="accessibility.nextKeyboard" xml:space="preserve">
+        <source>next keyboard</source>
+        <target>next keyboard</target>
+        <note/>
+      </trans-unit>
+      <trans-unit id="accessibility.shift" xml:space="preserve">
+        <source>shift</source>
+        <target>shift</target>
+        <note/>
+      </trans-unit>
+      <trans-unit id="accessibility.space" xml:space="preserve">
+        <source>space</source>
+        <target>space</target>
+        <note>* accessibility.* strings contain the text to be spoken by VoiceOver when an element is selected */</note>
       </trans-unit>
     </body>
   </file>
