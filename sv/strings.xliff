@@ -5,6 +5,10 @@
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="16.2" build-num="16C5032a"/>
     </header>
     <body>
+      <trans-unit id="Speller available. Tap to install." xml:space="preserve">
+        <source>Speller available. Tap to install.</source>
+        <note>Shown in the keyboard banner when a speller is available</note>
+      </trans-unit>
       <trans-unit id="The %@ keyboard is currently not supported on this device." xml:space="preserve">
         <source>The %@ keyboard is currently not supported on this device.</source>
         <target>%@-tangentbordet har inget stöd på denna apparaten just nu.</target>
@@ -252,24 +256,13 @@
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="16.2" build-num="16C5032a"/>
     </header>
     <body>
-      <trans-unit id="Enabled" xml:space="preserve">
-        <source>Enabled</source>
-        <target>Påslagen</target>
+      <trans-unit id="Auto-Capitalization" xml:space="preserve">
+        <source>Auto-Capitalization</source>
         <note/>
       </trans-unit>
-      <trans-unit id="Group" xml:space="preserve">
-        <source>Group</source>
-        <target>Grupp</target>
-        <note>A single strings file, whose title is specified in your preferences schema. The strings files provide the localized content to display to the user for each of your preferences.</note>
-      </trans-unit>
-      <trans-unit id="Name" xml:space="preserve">
-        <source>Name</source>
-        <target>Namn</target>
-        <note/>
-      </trans-unit>
-      <trans-unit id="none given" xml:space="preserve">
-        <source>none given</source>
-        <target>inget givet</target>
+      <trans-unit id="Enable Key Sounds" xml:space="preserve">
+        <source>Enable Key Sounds</source>
+        <target>TEST SWEDISH SETTINGS STRING</target>
         <note/>
       </trans-unit>
     </body>
