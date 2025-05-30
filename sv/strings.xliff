@@ -262,7 +262,6 @@
       </trans-unit>
       <trans-unit id="Enable Key Sounds" xml:space="preserve">
         <source>Enable Key Sounds</source>
-        <target>TEST SWEDISH SETTINGS STRING</target>
         <note/>
       </trans-unit>
     </body>
