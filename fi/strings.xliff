@@ -1,9 +1,14 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?><xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 http://docs.oasis-open.org/xliff/v1.2/os/xliff-core-1.2-strict.xsd">
+<?xml version='1.0' encoding='UTF-8'?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 http://docs.oasis-open.org/xliff/v1.2/os/xliff-core-1.2-strict.xsd">
   <file original="HostingApp/Base.lproj/Localizable.strings" source-language="en" target-language="fi" datatype="plaintext">
     <header>
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="16.2" build-num="16C5032a"/>
     </header>
     <body>
+      <trans-unit id="Speller available. Tap to install." xml:space="preserve">
+        <source>Speller available. Tap to install.</source>
+        <note>Shown in the keyboard banner when a speller is available</note>
+      </trans-unit>
       <trans-unit id="The %@ keyboard is currently not supported on this device." xml:space="preserve">
         <source>The %@ keyboard is currently not supported on this device.</source>
         <note>Shown inside the keyboard view when keyboard doesn't support current device</note>
@@ -244,25 +249,18 @@
       </trans-unit>
     </body>
   </file>
-  <file original="HostingApp/Settings.bundle/en.lproj/Root.strings" datatype="plaintext" source-language="en" target-language="fi">
+  <file original="HostingApp/Settings.bundle/en.lproj/Root.strings" source-language="en" target-language="fi" datatype="plaintext">
     <header>
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="16.2" build-num="16C5032a"/>
     </header>
     <body>
-      <trans-unit id="Enabled" xml:space="preserve">
-        <source>Enabled</source>
+      <trans-unit id="Auto-Capitalization" xml:space="preserve">
+        <source>Auto-Capitalization</source>
         <note/>
       </trans-unit>
-      <trans-unit id="Group" xml:space="preserve">
-        <source>Group</source>
-        <note>A single strings file, whose title is specified in your preferences schema. The strings files provide the localized content to display to the user for each of your preferences.</note>
-      </trans-unit>
-      <trans-unit id="Name" xml:space="preserve">
-        <source>Name</source>
-        <note/>
-      </trans-unit>
-      <trans-unit id="none given" xml:space="preserve">
-        <source>none given</source>
+      <trans-unit id="Enable Key Sounds" xml:space="preserve">
+        <source>Enable Key Sounds</source>
+        <target>TEST SETTINGS STRING WHEN FILE DOESNT EXIST IN XCODE</target>
         <note/>
       </trans-unit>
     </body>
