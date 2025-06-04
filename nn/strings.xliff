@@ -5,6 +5,11 @@
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="16.2" build-num="16C5032a"/>
     </header>
     <body>
+      <trans-unit id="Speller available. Tap to install." xml:space="preserve">
+        <source>Speller available. Tap to install.</source>
+        <target>Stavekontroll tilgjengeleg. Trykk for å installera.</target>
+        <note>Shown in the keyboard banner when a speller is available</note>
+      </trans-unit>
       <trans-unit id="The %@ keyboard is currently not supported on this device." xml:space="preserve">
         <source>The %@ keyboard is currently not supported on this device.</source>
         <target>%@-tastaturet er ikkje støtta akkurat no på dette apparatet.</target>
@@ -252,24 +257,14 @@
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="16.2" build-num="16C5032a"/>
     </header>
     <body>
-      <trans-unit id="Enabled" xml:space="preserve">
-        <source>Enabled</source>
-        <target>Slått på</target>
+      <trans-unit id="Auto-Capitalization" xml:space="preserve">
+        <source>Auto-Capitalization</source>
+        <target>Automatisk stor forbokstav</target>
         <note/>
       </trans-unit>
-      <trans-unit id="Group" xml:space="preserve">
-        <source>Group</source>
-        <target>Gruppe</target>
-        <note>A single strings file, whose title is specified in your preferences schema. The strings files provide the localized content to display to the user for each of your preferences.</note>
-      </trans-unit>
-      <trans-unit id="Name" xml:space="preserve">
-        <source>Name</source>
-        <target>Namn</target>
-        <note/>
-      </trans-unit>
-      <trans-unit id="none given" xml:space="preserve">
-        <source>none given</source>
-        <target>ingen spesifisert</target>
+      <trans-unit id="Enable Key Sounds" xml:space="preserve">
+        <source>Enable Key Sounds</source>
+        <target>Slå på tasteklikkelyd</target>
         <note/>
       </trans-unit>
     </body>
