@@ -5,6 +5,16 @@
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="16.2" build-num="16C5032a"/>
     </header>
     <body>
+      <trans-unit id="Keyboard Settings" xml:space="preserve">
+        <source>Keyboard Settings</source>
+        <target>Tastaturinnstillingar</target>
+        <note>Keyboard settings button title</note>
+      </trans-unit>
+      <trans-unit id="My Words" xml:space="preserve">
+        <source>My Words</source>
+        <target>Orda mine</target>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
       <trans-unit id="Speller available. Tap to install." xml:space="preserve">
         <source>Speller available. Tap to install.</source>
         <target>Stavekontroll tilgjengeleg. Trykk for å installera.</target>
