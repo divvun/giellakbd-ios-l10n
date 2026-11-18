@@ -276,6 +276,11 @@
         <target>Enable Key Sounds</target>
         <note/>
       </trans-unit>
+      <trans-unit id="Haptic Feedback" xml:space="preserve">
+        <source>Haptic Feedback</source>
+        <target>Haptic Feedback</target>
+        <note/>
+      </trans-unit>
     </body>
   </file>
 </xliff>
