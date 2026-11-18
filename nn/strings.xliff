@@ -277,6 +277,11 @@
         <target>Slå på tasteklikkelyd</target>
         <note/>
       </trans-unit>
+      <trans-unit id="Haptic Feedback" xml:space="preserve">
+        <source>Haptic Feedback</source>
+        <target>Følsom respons</target>
+        <note/>
+      </trans-unit>
     </body>
   </file>
 </xliff>
